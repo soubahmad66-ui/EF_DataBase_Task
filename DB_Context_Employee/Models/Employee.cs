@@ -12,6 +12,8 @@ namespace DB_Context_Employee.Models
         [StringLength(50, MinimumLength = 2, ErrorMessage = "Job title must be between 2 and 50 characters")]
         public string? TheJob { get; set; }
 
+        public DateTime HireDate { get; set; }
+
         [Required(ErrorMessage = "Name is required")]
         [StringLength(100, MinimumLength = 3, ErrorMessage = "Name must be between 3 and 100 characters")]
         public string Name { get; set; } = string.Empty; 
