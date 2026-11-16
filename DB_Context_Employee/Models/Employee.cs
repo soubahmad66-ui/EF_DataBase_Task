@@ -19,9 +19,9 @@ namespace DB_Context_Employee.Models
         public string Name { get; set; } = string.Empty; 
         public int EmployeeId { get; set; }
 
-        [Required(ErrorMessage = "Name is required")]
-        [StringLength(15, MinimumLength = 3, ErrorMessage = "Name must be between 3 and 15 characters")]
-        public string Department_employee { get; set; }
+        [Required(ErrorMessage = "Department is required")]
+        [StringLength(15, MinimumLength = 3, ErrorMessage = "Department must be between 3 and 15 characters")]
+        public string Department_employee { get; set; } 
 
         public Company? Company { get; set; }
 
