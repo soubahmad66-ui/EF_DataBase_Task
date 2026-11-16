@@ -19,7 +19,8 @@ namespace DB_Context_Employee.Models
          
         public int EmployeeId { get; set; }
 
-        public string Department {  get; set; }
+        public string Department_employee { get; set; }
+
         public Company? Company { get; set; }
 
         [Required(ErrorMessage = "Email is required")]
