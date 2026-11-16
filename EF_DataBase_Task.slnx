@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DB_Context_Employee/DB_Context_Employee.csproj" />
+  <Project Path="EF_DataBase_Task/EF_DataBase_Task.csproj" />
+</Solution>
